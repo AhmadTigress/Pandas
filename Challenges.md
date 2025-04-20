@@ -26,7 +26,7 @@ Here are the steps I followed:
    ```bash
    git add datasets/winemag-data-130k-v2.csv
 
-   4. **Committing the Changes:**
+4. **Committing the Changes:**
 
       - I created a commit with a relevant message to track the dataset upload.
       ```bash
