@@ -31,3 +31,15 @@ Here are the steps I followed:
       - I created a commit with a relevant message to track the dataset upload.
       ```bash
    git commit -m "Added 50MB wine reviews dataset (winemag-data-130k-v2.csv)"
+
+5. **Pushing to GitHub:**
+
+   - Finally, I pushed the commit to the remote GitHub repository, making the dataset available on the repository.
+   ```bash
+   git push origin main
+
+**Outcome:**
+
+   The dataset was successfully uploaded to my GitHub repository without encountering any issues. The process was smooth due to the usage of Git and the terminal, which can handle larger file sizes.
+
+   This method ensured the proper version control of the dataset, and now it is accessible for future reference and for anyone viewing my project on GitHub.
