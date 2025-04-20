@@ -16,4 +16,18 @@ Here are the steps I followed:
    git clone https://github.com/AhmadTigress/Pandas.git
    cd Pandas
 
+2. **Moving the Dataset:**
 
+   - I moved the `winemag-data-130k-v2.csv` file from my local `Downloads` folder into the repository’s local directory, specifically into the `datasets/` folder to keep the project organized.
+
+3. **Staging the File:**
+
+   - Using Git, I staged the large CSV file for commit.
+   ```bash
+   git add datasets/winemag-data-130k-v2.csv
+
+   4. **Committing the Changes:**
+
+      - I created a commit with a relevant message to track the dataset upload.
+      ```bash
+   git commit -m "Added 50MB wine reviews dataset (winemag-data-130k-v2.csv)"
